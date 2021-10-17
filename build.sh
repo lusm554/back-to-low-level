@@ -4,5 +4,5 @@
 # -Wextra   – enables some extra warning flags that are not enable by -Wall.
 # -std      – defines certain standard.
 # -pedantic – check standard.
-gcc -Wall -Wextra -std=c2x -pedantic $@
+clang -Wall -Wextra -std=c2x -pedantic $@
 
